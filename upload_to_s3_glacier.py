@@ -67,7 +67,7 @@ def upload_file(file_name, bucket, object_name=None):
                       aws_secret_access_key=AWS_SERVER_SECRET_KEY
                       )
     try:
-        s3_client.upload_file(Filename=file_name,Bucket=bucket,Key=object_name,Callback=upload_progress)
+        s3_client.upload_file(Filename=file_name,Bucket=bucket,Key=object_name,Callback=upload_progress,ExtraArgs={'StorageClass': 'DEEP_ARCHIVE'})
         up_progress.finish()
     except ClientError as e:
         logging.error(e)
