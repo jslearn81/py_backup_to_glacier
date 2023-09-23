@@ -9,9 +9,9 @@ Never worry about losing your data anymore !
 
 # FAQ: Why not just use AWS CLI or console?
 
-Web Console - Max size 160GB. And you get disconnected sometimes while uploading.
-AWS CLI - Max size 5GB
-AWS SDK (Which Python script is based on) - Max Size <b>5TB</b>
+Web Console - Max size 160GB. And you get disconnected sometimes while uploading.<br/>
+AWS CLI - Max size 5GB<br/>
+AWS SDK (Which Python script is based on) - Max Size <b>5TB</b><br/>
 
 See: https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html
 
